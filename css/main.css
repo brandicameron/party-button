@@ -28,7 +28,7 @@ body {
 
 button {
   border: none;
-  background-color: rgb(120, 66, 221);
+  /* background-color: rgb(120, 66, 221); */
   background-color: rgb(66, 172, 221);
   color: #fff;
   padding: 15px 25px;
