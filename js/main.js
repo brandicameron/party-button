@@ -1,3 +1,5 @@
+document.addEventListener("contextmenu", (event) => event.preventDefault());
+
 const jsConfetti = new JSConfetti();
 let timer = null;
 const partyBtn = document.getElementById("party-btn");
