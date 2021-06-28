@@ -1,5 +1,3 @@
-// document.addEventListener("contextmenu", (event) => event.preventDefault());
-
 const jsConfetti = new JSConfetti();
 let timer = null;
 const partyBtn = document.getElementById("party-btn");
@@ -16,9 +14,6 @@ function confettiParty() {
     ],
     confettiRadius: 10,
     confettiesNumber: 50,
-    // emojies: ["Brandi"],
-    // emojiSize: 30,
-    // confettiesNumber: 10,
   });
 }
 // runs entire time button is pressed
