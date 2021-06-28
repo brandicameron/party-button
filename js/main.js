@@ -14,7 +14,7 @@ function confettiParty() {
     // ],
     // confettiRadius: 10,
     emojies: ["🌮", "🍹"],
-    emojiSize: 50,
+    emojiSize: 80,
     confettiesNumber: 20,
   });
 }
