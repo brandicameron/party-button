@@ -4,16 +4,18 @@ const partyBtn = document.getElementById("party-btn");
 
 function confettiParty() {
   jsConfetti.addConfetti({
-    confettiColors: [
-      "#ff0a54",
-      "#ff477e",
-      "#ff7096",
-      "#ff85a1",
-      "#fbb1bd",
-      "#f9bec7",
-    ],
-    confettiRadius: 10,
-    confettiesNumber: 50,
+    // confettiColors: [
+    //   "#ff0a54",
+    //   "#ff477e",
+    //   "#ff7096",
+    //   "#ff85a1",
+    //   "#fbb1bd",
+    //   "#f9bec7",
+    // ],
+    // confettiRadius: 10,
+    emojies: ["🌮", "🍹"],
+    emojiSize: 50,
+    confettiesNumber: 20,
   });
 }
 // runs entire time button is pressed
