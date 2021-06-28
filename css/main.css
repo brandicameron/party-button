@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -17,19 +24,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 button {
   border: none;
   background-color: rgb(120, 66, 221);
-  /* background-color: rgb(66, 172, 221); */
+  background-color: rgb(66, 172, 221);
   color: #fff;
   padding: 15px 25px;
   border-radius: 5px;
